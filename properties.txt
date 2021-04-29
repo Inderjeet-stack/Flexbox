@@ -1,0 +1,16 @@
+
+
+flex container properties
+
+  1.dislay
+  2.flex-direction
+  3.flex-wrap
+  4.flex-flow (combination of flex direction and flex wrap)
+  5.justify-content (defines the alignment of item along main axis)
+
+  (main-axis- it is left to right)
+
+  6.align-items (defines how flex items are adjust on cross axis.)
+
+  7.align-content (similar to justify content but works for cross axis also it 
+  works only when there are multiple rows of flex items in the container.)

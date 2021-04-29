@@ -1,0 +1,67 @@
+
+/*
+Justify content is used to align items and distribute any extra spacing in parent conatiner
+
+The alignment is always along main axis until you set direction to column.
+
+ [   flex-start  - at left end of main axis ]
+ [   flex-end    - at right end main axis   ] -->> Align
+ [   center      - at center                ]   
+
+
+ [  space-between - space will be  equally distributed among items excluding start & end]
+ 
+ [  space-around  - space will be  distributed among items including start & end   and
+ the space among start and end is half of space between different items                ]-->> space
+
+ [  space-evenly  - space will be  distributed among items including start & end equally] 
+
+*/
+
+
+
+body {
+    margin: 0;
+}
+
+.container 
+{
+    border: 6px solid black;
+    display: flex;
+    justify-content: space-around;    
+
+}
+
+.flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+.item-1 {
+    background-color: #B4BF35;
+}
+.item-2 {
+    background-color: #B95F21;
+}
+.item-3 {
+    background-color: #1C4C56;
+}
+.item-4 {
+    background-color: #CfB276;
+}
+.item-5 {
+    background-color: #6B0803;
+}
+.item-6 {
+    background-color: #1C4C56;
+}
+.item-7 {
+    background-color: #B95F21;
+}
+.item-8 {
+    background-color: #01243A;
+}
+.item-9 {
+    background-color: #AAD041;
+}

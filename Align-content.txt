@@ -1,0 +1,19 @@
+
+
+Align content 
+
+It aligns lines of content along the cross axis and distribute any extra space.
+
+It works on multiple lines of content.
+
+Can use flex-wrap:wrap; to create multiple lines and then use align content.
+
+values
+
+flex-start
+flex-end
+center
+space-between
+space-around
+stretch
+
